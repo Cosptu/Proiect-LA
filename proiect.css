@@ -17,42 +17,59 @@ header {
     text-align: right;
     padding: 1em;
     margin-right: 5em;
+    cursor: pointer;
+  
 }
 header li {
     display: inline;
 }
 
-ul a {
+li a {
     color: rgb(7, 98, 201);
     text-decoration: none;
-    margin-right: 1.5em;
+    margin-right: 2em;
     font-size: 1.5em;
+    
 }
-h1, h2, h3 {
+
+h1 {
+    font-size: 3em;
+    position:absolute;
+    width:100%;
+    bottom:3.5em;
+    text-align:center;
     color: rgb(7, 98, 201);
     font-family: "futura-pt";
 }
-h1{
-    font-size: 2em;
-}
 h2 {
-    font-size: 3em;
+    font-size: 1.5em;
+    color: rgb(7, 98, 201);
+    font-family: "futura-pt";
+    position:absolute;
+    width:100%;
+    bottom:2em;
+    text-align:center;
+    margin-bottom: 1em;
 }
 h3 {
     font-size: 1.5em;
+    color: rgb(7, 98, 201);
+    font-family: "futura-pt";
+    position:absolute;
+    width:100%;
+    bottom:1.5em;
+    text-align:center;
+    margin-bottom: 0.5em;
 }
 #enter{
     font-family: "futura-pt";
     font-size: 5em;
     cursor: pointer;
-    color: rgb(7, 98, 201);
+    color: rgb(74, 148, 233);
 }
 #button {
     position:absolute;
     width:100%;
-    bottom:5em;
+    bottom:6em;
     text-align:center;
 }
-
-
-
