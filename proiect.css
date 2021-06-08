@@ -23,12 +23,6 @@ body{
  
 }
 
-#firstPage {
-    color: rgb(255, 255, 255);
-    margin-left: 7em;
-
-}
-
 #enter {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
@@ -37,6 +31,11 @@ body{
     /*margin-right: 7em;
     display: inline;*/
     
+}
+#firstPage {
+    color: rgb(255, 255, 255);
+    margin-left: 7em;
+
 }
 .MainMenu{
 text-align: right;
