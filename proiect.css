@@ -6,19 +6,40 @@
 body{
     background-image: url(Dog_Breeds.jpg);
     background-repeat: no-repeat;
-    /*background-color: black;*/
-    background-color:hsla(206, 12%, 85%, 0.3);
+    background-color: black;
     /*background-size: cover;*/
     background-position: center;
     height: 40em;
     
 }
 /*work in progress*/
+header {
+    text-align: right;
+    padding: 1em;
+    margin-right: 5em;
+}
+header li {
+    display: inline;
+}
 
-h1, h2 {
-    font-size: 2em;
+ul a {
+    color: rgb(7, 98, 201);
+    text-decoration: none;
+    margin-right: 1.5em;
+    font-size: 1.5em;
+}
+h1, h2, h3 {
     color: rgb(7, 98, 201);
     font-family: "futura-pt";
+}
+h1{
+    font-size: 2em;
+}
+h2 {
+    font-size: 3em;
+}
+h3 {
+    font-size: 1.5em;
 }
 #enter{
     font-family: "futura-pt";
