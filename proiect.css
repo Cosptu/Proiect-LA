@@ -42,6 +42,7 @@ h1 {
     font-family: "futura-pt";
 }
 h2 {
+    
     font-size: 1.5em;
     color: rgb(7, 98, 201);
     font-family: "futura-pt";
@@ -72,4 +73,15 @@ h3 {
     width:100%;
     bottom:6em;
     text-align:center;
+}
+#aboutus {
+    color: rgb(28, 104, 167);
+    text-align: center;
+    background-size: cover;
+}
+
+#aboutem{
+    color: rgb(28, 104, 167);
+    text-align: center;
+    padding: 3em;
 }
