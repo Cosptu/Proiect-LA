@@ -4,48 +4,52 @@
     padding: 0;
 }
 body{
-    background-image: url(large-dog-on-walk-looking-over-hills.jpg);
+    background-image: url(Dog_Breeds.jpg);
     background-repeat: no-repeat;
     background-color: black;
-    background-size: 100%;
+    /*background-size: cover;*/
     background-position: center;
-    height: 795px;
+    height: 40em;
+    width: 100%;
 }
+
+
 
 /*work in progress*/
 #about{
-    height: 40em;
-    width: 100%;
+    text-decoration: none;
+    margin-right: 7em;
     display: inline;
-  /*  background-image: url(photo-1518155317743-a8ff43ea6a5f.jpg);
-    background-repeat: no-repeat;
-    background-color: black;
-    background-size: 65%;
-    background-position: center; */
-    justify-content:space-around
+ 
 }
 
 #firstPage {
-    color: rgb(31, 5, 22);
-    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-left: 7em;
+
 }
 
 #enter {
     font-family: 'Times New Roman', Times, serif;
-    font-size: 2em;
+    font-size: 4em;
     cursor: pointer;
+    text-decoration: none;
+    /*margin-right: 7em;
+    display: inline;*/
     
 }
 .MainMenu{
 text-align: right;
 justify-content: space-around;
+display: inline;
 
 }
 
 a {
-    color: rgb(13, 67, 128);
-    text-decoration: none;
-    margin-right: 1.5em;
-    transition-duration: 1s;
-    display: inline;
+    color: rgb(14, 119, 238);
+
+}
+h1{
+    font-size: 3em;
+    font-family: 'Courier New', Courier, monospace;
 }
