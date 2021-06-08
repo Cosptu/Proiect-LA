@@ -22,19 +22,23 @@ body{
     display: inline;
  
 }
+a {
+  
+}
 
 #enter {
     font-family: 'Times New Roman', Times, serif;
     font-size: 4em;
     cursor: pointer;
     text-decoration: none;
+    color: rgb(14, 119, 238);
     /*margin-right: 7em;
     display: inline;*/
+    text-align: center;
     
 }
 #firstPage {
-    color: rgb(255, 255, 255);
-    margin-left: 7em;
+  
 
 }
 .MainMenu{
@@ -44,11 +48,12 @@ display: inline;
 
 }
 
-a {
-    color: rgb(14, 119, 238);
-
-}
 h1{
     font-size: 3em;
     font-family: 'Courier New', Courier, monospace;
+    color: rgb(255, 255, 255);
+}
+
+h2{
+    color: rgb(255, 255, 255);
 }
