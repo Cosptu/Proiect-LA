@@ -6,72 +6,65 @@
 body{
     background-image: url(Dog_Breeds.jpg);
     background-repeat: no-repeat;
-    background-color: black;
-    /*background-size: cover;*/
+    background-size: cover;
     background-position: center;
-    height: 40em;
-    
+    height: 48em;
 }
 /*work in progress*/
-header {
-    text-align: right;
-    padding: 1em;
-    margin-right: 5em;
-    cursor: pointer;
-  
+nav {
+    text-align: right;  
+    margin-top: 0.5em;
+    
 }
-header li {
+ul li {
     display: inline;
+    cursor: pointer;
 }
 
 li a {
-    color: rgb(7, 98, 201);
+    color: rgb(0, 113, 241);
     text-decoration: none;
-    margin-right: 2em;
-    font-size: 1.5em;
-    
+    margin-right: 0.7em;
+    font-size: 1.7em;
+    text-transform: capitalize;
 }
-
 h1 {
-    font-size: 3em;
+    font-size: 3.5em;
+    color: rgb(0, 113, 241);
+    font-family: "futura-pt";
     position:absolute;
     width:100%;
-    bottom:3.5em;
+    bottom:0.5em;
     text-align:center;
-    color: rgb(7, 98, 201);
-    font-family: "futura-pt";
 }
 h2 {
-    
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: rgb(7, 98, 201);
     font-family: "futura-pt";
     position:absolute;
     width:100%;
     bottom:2em;
     text-align:center;
-    margin-bottom: 1em;
 }
 h3 {
-    font-size: 1.5em;
+    font-size: 2.5em;
     color: rgb(7, 98, 201);
     font-family: "futura-pt";
     position:absolute;
     width:100%;
-    bottom:1.5em;
+    bottom:3em;
     text-align:center;
-    margin-bottom: 0.5em;
 }
 #enter{
     font-family: "futura-pt";
-    font-size: 5em;
+    font-size: 4em;
     cursor: pointer;
     color: rgb(74, 148, 233);
 }
 #button {
     position:absolute;
     width:100%;
-    bottom:6em;
+    bottom:5em;
     text-align:center;
 }
 #aboutus {
