@@ -3,6 +3,8 @@
     margin: 0;
     padding: 0;
 }
+
+/*work in progress*/
 body{
     background-image: url(Dog_Breeds.jpg);
     background-repeat: no-repeat;
@@ -10,71 +12,62 @@ body{
     background-position: center;
     height: 48em;
 }
-/*work in progress*/
 nav {
     text-align: right;  
     margin-top: 0.5em;
-    
 }
+
 ul li {
     display: inline;
     cursor: pointer;
 }
-
 li a {
     color: rgb(0, 113, 241);
+    font-size: 1.7em;
     text-decoration: none;
     margin-right: 0.7em;
-    font-size: 1.7em;
-    text-transform: capitalize;
+    font-family: "futura-pt";
 }
-h1 {
+h1, h2, h3 {
     font-size: 3.5em;
     color: rgb(0, 113, 241);
+    text-align:center;
     font-family: "futura-pt";
     position:absolute;
     width:100%;
     bottom:0.5em;
-    text-align:center;
+    
 }
-h2 {
+h2, h3 {
     font-size: 2.5em;
-    color: rgb(7, 98, 201);
-    font-family: "futura-pt";
-    position:absolute;
-    width:100%;
-    bottom:2em;
-    text-align:center;
-}
-h3 {
-    font-size: 2.5em;
-    color: rgb(7, 98, 201);
-    font-family: "futura-pt";
-    position:absolute;
     width:100%;
     bottom:3em;
-    text-align:center;
+}
+h3 {
+   bottom:2em;
 }
 #enter{
     font-family: "futura-pt";
-    font-size: 4em;
+    font-size: 3.5em;
     cursor: pointer;
-    color: rgb(74, 148, 233);
+    /*color: rgb(46,54,135);*/
+    color: rgb(246, 250, 10);
 }
 #button {
     position:absolute;
     width:100%;
-    bottom:5em;
+    bottom:5.5em;
     text-align:center;
 }
 #aboutus {
     color: rgb(28, 104, 167);
     text-align: center;
-    background-size: cover;
+    font-family: "futura-pt";
 }
 
 #aboutem{
     color: rgb(28, 104, 167);
     text-align: center;
     padding: 3em;
+    font-family: "futura-pt";
 }
