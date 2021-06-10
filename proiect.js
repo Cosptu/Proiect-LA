@@ -1,5 +1,4 @@
-document.querySelector('#button').addEventListener('click', showpagina2)
+//document.querySelector('#enter').addEventListener('click', showpagina2)
 
-function showpagina2() {
-    document.querySelector('#pagina2').click
-}
+//function showpagina2() {
+//document.querySelector('#enter').innerHTML = 'pagina2'
