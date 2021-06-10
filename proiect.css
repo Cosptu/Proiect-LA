@@ -15,6 +15,8 @@ body{
 nav {
     text-align: right;  
     margin-top: 0.5em;
+    position: sticky;
+    top:0em;
 }
 
 ul li {
@@ -22,7 +24,7 @@ ul li {
     cursor: pointer;
 }
 li a {
-    color: rgb(0, 113, 241);
+    color: rgb(17, 0, 173);
     font-size: 1.7em;
     text-decoration: none;
     margin-right: 0.7em;
@@ -31,16 +33,17 @@ li a {
 h1, h2, h3 {
     font-size: 3.5em;
     color: rgb(0, 113, 241);
+    position:absolute;
     text-align:center;
     font-family: "futura-pt";
-    position:absolute;
     width:100%;
     bottom:0.5em;
-    
+}
+h1{
+    opacity: 0.5;
 }
 h2, h3 {
     font-size: 2.5em;
-    width:100%;
     bottom:3em;
 }
 h3 {
@@ -50,8 +53,7 @@ h3 {
     font-family: "futura-pt";
     font-size: 3.5em;
     cursor: pointer;
-    /*color: rgb(46,54,135);*/
-    color: rgb(246, 250, 10);
+    color: rgb(17, 0, 173);
 }
 #button {
     position:absolute;
