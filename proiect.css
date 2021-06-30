@@ -5,13 +5,19 @@
 }
 
 /*work in progress*/
-#container1 {
+.container1 {
     background-image: url(Dog_Breeds.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: center center;
     height: 48em;
 }
+.animate__animated.animate__heartBeat {
+    --animate-duration: 5s;
+    animation-iteration-count: infinite;
+    
+}
+
 nav {
     text-align: right;  
     margin-top: 0.5em;
@@ -31,13 +37,13 @@ li a {
     font-family: "futura-pt";
 }
 h1, h2, h3 {
-    font-size: 3.5em;
+    font-size: 5em;
     color: rgb(0, 144, 240);
     position:absolute;
     text-align:center;
     font-family: "futura-pt";
     width:100%;
-    bottom:0.5em;
+    bottom: 0.2em;
 }
 h1{
     opacity: 0.7;
@@ -83,4 +89,11 @@ h3 {
     background: rgb(11,107,221);
     background: linear-gradient(90deg, rgba(11,107,221,1) 0%, rgba(34,224,12,1) 100%, rgba(0,212,255,1) 100%);
     height: 100vh;
+}
+.dropdown-toggle::after {
+    display: none;
+}
+
+.navbar-collapse {
+    justify-content: flex-end;
 }
