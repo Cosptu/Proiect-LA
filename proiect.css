@@ -6,11 +6,13 @@
 
 /*work in progress*/
 .container1 {
-    background-image: url(Dog_Breeds.jpg);
+    background-image: url(dogofundal2.jpg);
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
+    background-size: 550px;
+    background-position: center;
     height: 48em;
+    background-color: rgb(32, 10, 10);
+    background-color: rgb(33, 37, 41);
 }
 .animate__animated.animate__heartBeat {
     --animate-duration: 5s;
@@ -30,24 +32,27 @@ ul li {
     cursor: pointer;
 }
 li a {
-    color: rgba(12,12,224,1);
+    color: rgb(204, 154, 6);
     font-size: 1.7em;
     text-decoration: none;
-    margin-right: 0.7em;
     font-family: "futura-pt";
+    margin-right: 1.5em;
+    transition-duration: 1s;
+    display: inline-block;
 }
 h1, h2, h3 {
     font-size: 5em;
-    font-weight: 7em;
-    color: rgb(0, 144, 240);
+    font-weight: 900;
+    color: rgb(204, 154, 6);
     position:absolute;
     text-align:center;
     font-family: "futura-pt";
     width:100%;
-    bottom: 0.2em;
+    bottom: -1.6em;
 }
 h1{
     opacity: 0.7;
+ 
 }
 h2, h3 {
     font-size: 2.5em;
@@ -62,16 +67,17 @@ h5 {
 }
 #enter{
     font-family: "futura-pt";
-    font-size: 4em;
+    font-size: 3em;
     cursor: pointer;
-    color: rgba(12,12,224,1);
+    color: rgb(255, 193, 7);
     text-decoration: none;
 }
 #button {
     position:absolute;
     width:100%;
-    bottom:5.5em;
     text-align:center;
+    /*top: 10em;*/
+    bottom: -3em;
 }
 #aboutus {
     color: rgb(28, 104, 167);
@@ -90,19 +96,39 @@ h5 {
 }
 
 #container2{
-    background: rgb(24,29,164);
-    background: linear-gradient(101deg, rgba(24,29,164,1) 0%, rgba(18,236,98,1) 87%, rgba(0,107,0,1) 100%);
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
     height: 100%;
-    position: sticky;
-
-
-
 }
 .dropdown-toggle::after {
     display: none;
+    position: sticky;
+    
 
 }
 
 .navbar-collapse {
     justify-content: flex-end;
+    
+  
+}
+.col {
+    margin-bottom: 2em;
+    margin-top: 2em;
+    margin-left: 2em;
+    margin-right: 2em;
+    cursor: pointer;
+}
+.card:hover{
+    transform: scale(1.2);
+}
+.collapse{
+    background-color: hsl(29, 100%, 50%);
+}
+.dropdown-menu {
+    background-color: hsl(44, 83%, 60%);
+}
+.navbar{
+    position: sticky;
+    z-index: 1;
 }
