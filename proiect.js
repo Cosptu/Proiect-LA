@@ -1,1 +1,6 @@
-//document.documentElement.style.setProperty('--animate-duration', '5s');
+
+  var  likeButton = document.querySelector('.like-button')
+  likeButton.addEventListener('click', () => {
+    likeButton.classList.toggle('liked')
+})
+
