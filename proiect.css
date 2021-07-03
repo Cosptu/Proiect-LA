@@ -110,7 +110,7 @@ p{
 #aboutem{
     color: rgb(28, 104, 167);
     text-align: center;
-    font-family: "futura-pt";
+    font-family: 'Courier New', Courier, monospace;
     background-color: rgb(184, 186, 187);
     height: 100vh;
 }
@@ -139,6 +139,9 @@ p{
     margin-right: 2em;
     cursor: pointer;
 }
+/*alternativa hover
+img:hover{
+    transform: scale(1.2);*/
 .card:hover{
     transform: scale(1.2);
 }
@@ -152,9 +155,9 @@ p{
     position: sticky;
     z-index: 1;
 }
-button {
+.add-to-cart {
     border: 1px solid hsl(10, 62%, 28%);
-    padding: 6px 14px;
+    padding: 6px 26px;
     background-color: hsl(0, 0%, 100%);
     color: hsl(10, 62%, 28%);
     text-transform: uppercase;
@@ -163,6 +166,7 @@ button {
     font-weight: bold;
     cursor: pointer;
 }
+/*
 .like-button {
     font-size: 2.5em;
     cursor: pointer;
@@ -192,6 +196,27 @@ button {
       transition: 0.2s;
     }
     .like-button.liked::after {
-      transform: translate(-50%, -50%) scale(1.1);
+      transform: translate(-50%, -50%) ;
     }
-    
+    footer {
+        background-color: hsl(182, 82%, 37%);
+        text-align: center;
+        text-transform:capitalize;
+        padding: 0.7em;
+        margin-left: 0.5em;
+        margin-right: 0.5em;
+        margin-bottom: 0.5em;
+        }
+*/
+.likeBtn {
+    float: left;
+    border: 1px solid hsl(10, 62%, 28%);
+    padding: 6px 14px;
+    background-color: hsl(0, 0%, 100%);
+    color: hsl(10, 62%, 28%);
+    text-transform: uppercase;
+    margin: 5px 0;
+    font-weight: bold;
+    cursor: pointer;
+
+}

@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <script src="proiect.js" defer></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -72,7 +73,10 @@
                         <img src="dogo2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Laika</h5>
-                            <button class="like-button"></button>
+                            <button class = likeBtn>
+                                <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                                <span id="count">0</span> Likes
+                            </button>
                             <button class="add-to-cart" type="button">Adopt</button>
                         </div>
                     </div>
@@ -83,7 +87,10 @@
                         <img src="dogo8.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Rex</h5>
-                            <button class="like-button"></button>
+                            <button class = likeBtn>
+                                <span id="icon"><i class="far fa-thumbs-up"></i></span>
+                                <span id="count">0</span> Likes
+                            </button>
                             <button class="add-to-cart" type="button">Adopt</button>
                         </div>
                     </div>
@@ -216,6 +223,12 @@
                 </div>
             </div>
         </div>
+
+        <footer><p2>
+            Foster Help Center
+        </p2></footer>
+
+
 
 </body>
 
