@@ -19,8 +19,8 @@
 <body>
 
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#"><img src="https://img.icons8.com/emoji/48/000000/dog-emoji.png" /></a>
+        <div class="container-fluid navigation">
+            <a class="navbar-brand" href="#"><img id='imgnav' src="https://img.icons8.com/emoji/48/000000/dog-emoji.png" /></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,7 +31,7 @@
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Sign up</a>
                     </li>
-                    <!--
+                    <!-- 
                     <li class="nav-item">
                         <a class="nav-link" href="#">Submit</a>
                     
@@ -63,7 +63,7 @@
                         <img src="dogo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Thor</h5>
-                            <button class="like-button"></button>
+                            <button class="likeBtn"><i class="fas fa-heart"></i></button>
                             <button class="add-to-cart" type="button">Adopt</button>
                         </div>
                     </div>
@@ -73,9 +73,9 @@
                         <img src="dogo2.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Laika</h5>
-                            <button class = likeBtn>
+                            <button class = "likeBtn">
                                 <span id="icon"><i class="far fa-thumbs-up"></i></span>
-                                <span id="count">0</span> Likes
+                                <p id="count"></p> Likes
                             </button>
                             <button class="add-to-cart" type="button">Adopt</button>
                         </div>
