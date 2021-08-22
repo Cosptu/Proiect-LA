@@ -166,9 +166,11 @@ img:hover{
 #imgnav{
     margin-left: 12px;
 }
+/*
 .buttonclicked{
     color: red;
 }
+*/
 .add-to-cart {
     border: 1px solid hsl(10, 62%, 28%);
     padding: 6px 26px;
@@ -181,27 +183,18 @@ img:hover{
     cursor: pointer;
 }
 
-.like-button {
-    font-size: 2.5em;
-    cursor: pointer;
-    padding-right: 0.6em;
-    position: sticky;
-    float: left;
-    
-}
-        
-.likeBtn {
+.like__btn {
     float: left;
     border: 1px solid hsl(10, 62%, 28%);
-    padding: 6px 14px;
+    padding: 6px 15px;
     background-color: hsl(0, 0%, 100%);
     color: hsl(10, 62%, 28%);
     text-transform: uppercase;
     margin: 5px 0;
     font-weight: bold;
     cursor: pointer;
+  }
 
-}
 footer {
     background-color: hsl(182, 82%, 37%);
     text-align: center;
@@ -212,25 +205,3 @@ footer {
     margin-bottom: 0.5em;
     }
 
-/* .like-button::before {
-      font-size: 2em;
-      color: hsl(0, 0%, 0%);
-      content: '♥';
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%);
-    }
-    .like-button::after {
-      font-size: 2.2em;
-      color: red;
-      content: '♥';
-      position: absolute;
-      left: 50%;
-      top: 50%;
-      transform: translate(-50%, -50%) scale(0);
-      transition: 0.2s;
-    }
-    .like-button.liked::after {
-      transform: translate(-50%, -50%) ;
-    }*/
