@@ -196,6 +196,13 @@ img:hover{
     font-size: larger;
     cursor: pointer;
   }
+  .card-title{
+    color:hsl(29, 100%, 50%);
+    font-weight:bolder;
+    text-shadow:  1px 6px 8px rgba(0, 0, 0, 0.23);
+  }
+ 
+
 
 footer {
     background-color: hsl(182, 82%, 37%);
