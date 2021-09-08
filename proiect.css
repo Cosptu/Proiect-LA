@@ -5,6 +5,7 @@
 }
 
 /*work in progress*/
+
 .container1 {
     background-image: url(dogofundal2.jpg);
     background-repeat: no-repeat;
@@ -14,6 +15,7 @@
     background-color: rgb(32, 10, 10);
     background-color: rgb(33, 37, 41);
 }
+
 .animate__animated.animate__heartBeat {
     --animate-duration: 5s;
     animation-iteration-count: infinite;
@@ -31,7 +33,7 @@ ul li {
     display: inline;
     cursor: pointer;
 }
-li a {
+nav ul li a {
     color: rgb(204, 154, 6);
     font-size: 1.7em;
     text-decoration: none;
@@ -212,5 +214,13 @@ footer {
     margin-left: 0.5em;
     margin-right: 0.5em;
     margin-bottom: 0.5em;
-    }
-   
+}
+.house{
+    position:relative;
+    margin-top: -3.5em;
+    float: right;
+}
+.nav-link:active{
+    transform: scale(0.95);
+
+}
