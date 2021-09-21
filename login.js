@@ -4,7 +4,7 @@ function setFormMessage(formElement, type, message) {
 
     messageElement.textContent = message;
     messageElement.classList.remove("formMessageSuccess", "formMessageError");
-    messageElement.classList.add(`formMessage ${type}`);
+    messageElement.classList.add(`formMessage ${type}`)
 }
 
 function setInputError(inputElement, message) {

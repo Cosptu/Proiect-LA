@@ -1,10 +1,10 @@
 
-//opacity adopt work in progress
-/*
+//add opacity adopt
+
  $(".add-to-cart").click(function() {
-  $(this).parents().find(".card-img-top").css("opacity", "0.5");
+  $(".card-img-top").css("opacity", "0.5");
   alert("Our dogs want you logged!")
   
 });
-*/
-//flying cart effect
+
+
