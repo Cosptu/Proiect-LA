@@ -5,10 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homepage - Foster Help Center</title>
     <script src="proiect.js" defer></script>
-    <script src="adopt.js" defer></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="icon" href="https://img.icons8.com/emoji/48/000000/dog-emoji.png" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
@@ -16,59 +18,38 @@
         crossorigin="anonymous"></script>
     <link rel="stylesheet" href="proiect.css">
 
- <!-- test login form linked with index exercises -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-    <link rel="stylesheet" href="index.css">
-    <script src="index.js"></script>
-    <a href="index.html"></a>
-
 </head>
+
 
 <body>
 
+    <!-- LOGIN NAVBAR-->
+
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container-fluid navigation">
-            <a class="navbar-brand" href="#"><img id='imgnav' src="https://img.icons8.com/emoji/48/000000/dog-emoji.png" /></a>
+            <a class="navbar-brand" href="#"><img id='imgnav'
+                    src="https://img.icons8.com/emoji/48/000000/dog-emoji.png" /></a>
 
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
                 aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            
+
             <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">Login  <img src="https://img.icons8.com/fluent/50/000000/dog-house.png" /></a>
+                        <a class="nav-link active" aria-current="page" href="login.html"> Login <img
+                                src="https://img.icons8.com/fluent/50/000000/dog-house.png" /></a>
                     </li>
-        
-                 
-                        
-                           
-               
-                   
-                  <!--   <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button"
-                            data-bs-toggle="dropdown" aria-expanded="false">
-                            Sign Up
-                        </a>
 
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                            <li><a class="dropdown-item" href="#">Create account</a></li>
-                            <li><a class="dropdown-item" href="#">Recover passw.</a></li>
-                            <li><a class="dropdown-item" href="#">Logout</a></li>
-                        </ul>
-                        </li>
-                        -->
-                        <div class="house">
-                            <img src="https://img.icons8.com/fluent/50/000000/dog-house.png" />
-                        </div>
-                    
-                   
+
                 </ul>
             </div>
-        
+
         </div>
     </nav>
+
+    <!-- List of dogs-->
 
     <div id="container2">
         <div class="container">
@@ -82,10 +63,12 @@
                                 <span class="icon"><i class="far fa-thumbs-up"></i></span>
                                 <span class="count">0</span> Like
                             </button>
-                            <button class="add-to-cart" type="button"  data-bs-toggle="modal" data-bs-target="#exampleModal">Adopt</button>
+                            <button class="add-to-cart" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Adopt</button>
                         </div>
                     </div>
                 </div>
+
                 <div class="col">
                     <div class="card" style="width: 18rem;">
                         <img src="dogo2.jpg" class="card-img-top" alt="...">
@@ -100,7 +83,7 @@
                     </div>
                 </div>
                 <div class="col">
-                    
+
                     <div class="card" style="width: 18rem;">
                         <img src="dogo8.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
@@ -277,30 +260,31 @@
                 </div>
             </div>
         </div>
-      <!-- Modal -->
-        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-            <div class="modal-dialog">
+    </div>
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                <h5 class="modal-title" id="exampleModalLabel">Your shelter</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    <h5 class="modal-title" id="exampleModalLabel">Your shelter</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                <!-- perform table content here -->
+                    <!-- perform table content here -->
                 </div>
                 <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
                 </div>
             </div>
-            </div>
         </div>
-    
-        <footer>
-            <p2>
+    </div>
+
+    <footer>
+        <p2>
             Foster Help Center
-            </p2>
-        </footer>
+        </p2>
+    </footer>
 
 
 
