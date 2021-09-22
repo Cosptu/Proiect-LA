@@ -80,7 +80,8 @@
                                 <span class="icon"><i class="far fa-thumbs-up"></i></span>
                                 <span class="count">0</span> Like
                             </button>
-                            <button class="add-to-cart" type="button">Adopt</button>
+                            <button class="add-to-cart" type="button" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">Adopt</button>
                         </div>
                     </div>
                 </div>
@@ -268,44 +269,43 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Fill the table to be contacted  for adoption</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Fill the table in order to be contacted</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
-                    <!-- perform table content here -->
-                    <form>
+                    <!-- Formular -->
+                    <form id="formular">
                         <div class="form-row">
                           <div class="form-group col-md-6">
-                            <label for="inputEmail4">Name and surname</label>
-                            <input type="email" class="form-control" id="inputEmail4" placeholder="Costel Spinu">
+                            <label for="inputName">Name and surname</label>
+                            <input text="email" class="form-control" id="inputName" placeholder="Costel Spinu" onchange="validation()">
                           </div>
                           <div class="form-group col-md-6">
-                            <label for="inputPassword4">Phone number</label>
-                            <input type="password" class="form-control" id="inputPassword4" placeholder="+40...">
+                            <label for="inputPhone">Phone number</label>
+                            <input type="phone" class="form-control" id="inputPhone" placeholder="+40..." onchange="validation()">
                           </div>
                         </div>
                         <div class="form-group">
                           <label for="inputAddress">Address</label>
-                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St" onchange="validation()">
                         </div>
                         <div class="form-group">
-                          <label for="inputAddress2">Questions/Specifications</label>
-                          <input type="text" class="form-control" id="inputAddress2" placeholder="Submit a question">
+                          <label for="inputQuestion">Questions/Specifications</label>
+                          <input type="text" class="form-control" id="inputQuestion" placeholder="Submit a question">
                         </div>
                         <div class="form-row">
                           <div class="form-group col-md-6">
                             <label for="inputCity">City</label>
-                            <input type="text" class="form-control" id="inputCity">
+                            <input type="text" class="form-control" id="inputCity" placeholder="Bucharest" onchange="validation()">
                           </div>
                           <div class="form-group col-md-4">
                             <label for="inputState">State</label>
-                            <select id="inputState" class="form-control">
-                             
-                            </select>
+                            <input type="text" class="form-control" id="inputState" placeholder="Ilfov" onchange="validation()">
+                         
                           </div>
                           <div class="form-group col-md-2">
                             <label for="inputZip">Zip code</label>
-                            <input type="text" class="form-control" id="inputZip">
+                            <input type="text" class="form-control" id="inputZip"placeholder="666" onchange="validation()">
                           </div>
                         </div>
                         <div class="form-group">
@@ -319,17 +319,15 @@
                       </form>
                 
                 </div>
+                 <!-- Submit button -->
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-primary">Submit</button>
+                    <button type="button" id="submit" class="btn btn-primary submitForm"  data-bs-dismiss="modal" disabled>Submit</button>
                 </div>
             </div>
         </div>
     </div>
 
-
-
-
-
+  <!-- Footer -->
     <footer>
         <p2>
             Foster Help Center
