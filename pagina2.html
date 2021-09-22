@@ -59,10 +59,12 @@
                         <img src="dogo.jpg" class="card-img-top" alt="...">
                         <div class="card-body">
                             <h5 class="card-title">Thor</h5>
+                            <!-- Like button-->
                             <button class="like__btn">
                                 <span class="icon"><i class="far fa-thumbs-up"></i></span>
                                 <span class="count">0</span> Like
                             </button>
+                            <!-- Adopt button-->
                             <button class="add-to-cart" type="button" data-bs-toggle="modal"
                                 data-bs-target="#exampleModal">Adopt</button>
                         </div>
@@ -266,19 +268,67 @@
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-header">
-                    <h5 class="modal-title" id="exampleModalLabel">Your shelter</h5>
+                    <h5 class="modal-title" id="exampleModalLabel">Fill the table to be contacted  for adoption</h5>
                     <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                 </div>
                 <div class="modal-body">
                     <!-- perform table content here -->
+                    <form>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputEmail4">Name and surname</label>
+                            <input type="email" class="form-control" id="inputEmail4" placeholder="Costel Spinu">
+                          </div>
+                          <div class="form-group col-md-6">
+                            <label for="inputPassword4">Phone number</label>
+                            <input type="password" class="form-control" id="inputPassword4" placeholder="+40...">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress">Address</label>
+                          <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                        </div>
+                        <div class="form-group">
+                          <label for="inputAddress2">Questions/Specifications</label>
+                          <input type="text" class="form-control" id="inputAddress2" placeholder="Submit a question">
+                        </div>
+                        <div class="form-row">
+                          <div class="form-group col-md-6">
+                            <label for="inputCity">City</label>
+                            <input type="text" class="form-control" id="inputCity">
+                          </div>
+                          <div class="form-group col-md-4">
+                            <label for="inputState">State</label>
+                            <select id="inputState" class="form-control">
+                             
+                            </select>
+                          </div>
+                          <div class="form-group col-md-2">
+                            <label for="inputZip">Zip code</label>
+                            <input type="text" class="form-control" id="inputZip">
+                          </div>
+                        </div>
+                        <div class="form-group">
+                          <div class="form-check">
+                            <input class="form-check-input" type="checkbox" id="gridCheck">
+                            <label class="form-check-label" for="gridCheck">
+                              Keep me informed about new dogs
+                            </label>
+                          </div>
+                        </div>
+                      </form>
+                
                 </div>
                 <div class="modal-footer">
-                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                    <button type="button" class="btn btn-primary">Save changes</button>
+                    <button type="button" class="btn btn-primary">Submit</button>
                 </div>
             </div>
         </div>
     </div>
+
+
+
+
 
     <footer>
         <p2>
